@@ -38,27 +38,7 @@ Output Layer:   1 neuron, Sigmoid activation
 - **Scikit-learn** - Data preprocessing and evaluation metrics
 - **Matplotlib** - Data visualization
 
-##  Prerequisites
 
-```bash
-pip install pandas numpy matplotlib scikit-learn tensorflow
-```
-
-##  Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/loplop05/Credit-Card-Fraud-Detection.git
-cd Credit-Card-Fraud-Detection
-```
-
-### 2. Download the Dataset
-Download the `creditcard.csv` file from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and place it in the project directory.
-
-### 3. Run the Notebook
-Open and run `fraud_detection_v2.ipynb` in Jupyter Notebook or JupyterLab:
-```bash
-jupyter notebook fraud_detection_v2.ipynb
 ```
 
 ## Workflow
@@ -92,7 +72,7 @@ jupyter notebook fraud_detection_v2.ipynb
 - Confusion Matrix
 - Training/Validation Loss and Accuracy curves
 
-## 📊 Results
+##  Results
 
 The model is evaluated using:
 - **Precision:** How many predicted frauds are actually frauds
